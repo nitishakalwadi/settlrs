@@ -12,5 +12,11 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+	return "hello";
+    // return view('welcome')->name('home');
+});
+
+Route::get('/test', function () {
+	return "hello from test";
+    //return view('welcome')->name('home');
 });
